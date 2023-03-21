@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #253237;
+	
+}
+
+/* c2dfe3 */
+p {
+	color: #e0fbfc;
+	/* background-color: #9db4c0; */
+	font-family: 'Righteous', cursive;
+	font-size: 32px;
+}
+
+img {
+  border: 2px solid #c2dfe3;
+  border-radius: 8px;
+  margin: 8px;
+  width: 15%;
+  height: 15%;
+}
+
+.notavalible{
+  -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+  filter: blur(2px);
+}

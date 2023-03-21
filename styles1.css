@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #253237;
+	
+}
+
+/* c2dfe3 */
+p{
+	color: #e0fbfc;
+	/* background-color: #9db4c0; */
+	font-family: 'Righteous', cursive;
+	font-size: 16pt;
+}
+
+h1{
+	color: #e0fbfc;
+	font-family: 'Righteous', cursive;
+}
+
+h3{
+	color: #52796f;
+	font-family: 'Righteous', cursive;
+}
+
+h4{
+	height: 20px;
+	width: 100px;
+	margin: 0px;
+	color: #FAFA33;
+	font-family: 'Righteous', cursive;
+	background-color: green;
+	border-radius: 6px;
+}
+
+h5{
+	font-family: 'Righteous', cursive;
+	font-size: 8pt;
+}
+
+img {
+  border: 2px solid #c2dfe3;
+  border-radius: 8px;
+  margin: 8px;
+  width: 15%;
+  height: 15%;
+}
+
+.notavalible{
+  -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+  filter: blur(2px);
+}
+
+.specialtxt{
+	color: #f72585;
+	font-family: 'Righteous', cursive;
+}
+
+.rainbow-text {
+  text-shadow: 0 0 10px white;
+  animation: rainbow 5s ease-in-out infinite;
+}
+
+@keyframes rainbow {
+  0% { text-shadow: 0 0 10px red; }
+  14% { text-shadow: 0 0 10px orange; }
+  28% { text-shadow: 0 0 10px yellow; }
+  42% { text-shadow: 0 0 10px green; }
+  56% { text-shadow: 0 0 10px blue; }
+  70% { text-shadow: 0 0 10px indigo; }
+  100% { text-shadow: 0 0 10px violet; }
+}
